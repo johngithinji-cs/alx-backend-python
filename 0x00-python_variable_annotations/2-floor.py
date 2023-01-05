@@ -4,9 +4,11 @@
     Basic annotations - floor
 '''
 
+import math
+
 
 def floor(n: float) -> int:
     '''
         Basic annotations - floor
     '''
-    return int(n // 1)
+    return math.floor(n)
