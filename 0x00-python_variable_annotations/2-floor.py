@@ -1,14 +1,9 @@
-#!/usr/bin/python3
-
-'''
-    Basic annotations - floor
-'''
+#!/usr/bin/env python3
+""" Basic annotations concat """
 
 import math
 
 
 def floor(n: float) -> int:
-    '''
-        Basic annotations - floor
-    '''
+    """ Returns the floor of n"""
     return math.floor(n)
